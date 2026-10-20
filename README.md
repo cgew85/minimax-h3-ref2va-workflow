@@ -103,8 +103,6 @@ For shorter test runs, start at 0.5 MP. In this workflow, that corresponds to **
 
 ## Runtime and Memory
 
-A recorded reference run on the system described above took **2,147.7 seconds** (approximately **35 minutes and 48 seconds**) to complete. This is not a benchmark for other systems; runtime depends in particular on duration, resolution, reference count, driver version, and cache state.
-
 Sampling and VAE decoding are the most memory-intensive stages. The workflow runs `RAMCleanup` automatically after saving. Still, close other GPU- and RAM-intensive applications before queuing long or high-resolution jobs.
 
 ## Reference Material and Publishing
